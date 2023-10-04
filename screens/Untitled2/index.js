@@ -1,3 +1,4 @@
+import { ActivityIndicator } from "react-native";
 import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
@@ -8,13 +9,17 @@ const Untitled2 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}></ScrollView>
+    }}><ActivityIndicator style={styles.pYXbHSqV}></ActivityIndicator></ScrollView>
     </SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
   safeArea: {
     height: '100%'
+  },
+  pYXbHSqV: {
+    width: 50,
+    height: 50
   }
 });
 export default Untitled2;
