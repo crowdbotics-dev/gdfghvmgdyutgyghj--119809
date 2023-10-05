@@ -1,4 +1,4 @@
-import { ActivityIndicator } from "react-native";
+import { ImageBackground } from "react-native";
 import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
@@ -9,7 +9,7 @@ const Untitled2 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><ActivityIndicator style={styles.pYXbHSqV}></ActivityIndicator></ScrollView>
+    }}><ImageBackground style={styles.CYHBtOlz} source={require("./5.png")} resizeMode="cover"></ImageBackground></ScrollView>
     </SafeAreaView>;
 };
 
@@ -17,9 +17,9 @@ const styles = StyleSheet.create({
   safeArea: {
     height: '100%'
   },
-  pYXbHSqV: {
-    width: 50,
-    height: 50
+  CYHBtOlz: {
+    width: 107,
+    height: 62
   }
 });
 export default Untitled2;
